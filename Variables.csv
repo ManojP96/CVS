@@ -1,0 +1,53 @@
+Variable,Variable Bucket,Master Bucket,Base Bucket
+Non Promo Price,Price,Price,Internal
+Base Price,Price,Price,Internal
+Promo Price,Price,Price,Internal
+Average Price,Price,Price,Internal
+Price,Price,Price,Internal
+Distribution,Distribution,Distribution,Internal
+Weighted Distribution,Distribution,Distribution,Internal
+TDP,Distribution,Distribution,Internal
+Promo,Promotion,Promotion,Internal
+Depth of Deal,Promotion,Promotion,Internal
+Discount,Promotion,Promotion,Internal
+Volume ,Sales,Sales,Dependent
+Value,Sales,Sales,Dependent
+Sales,Sales,Sales,Dependent
+Market Share,Sales,Sales,Dependent
+TV,TV,Offline Media,Media
+Display,Display,Online Media,Media
+Video,Video,Online Media,Media
+OLV,Video,Online Media,Media
+Facebook,Facebook,Online Media,Media
+Twitter,Twitter,Online Media,Media
+Instagram,Instagram,Online Media,Media
+Pintrest,Pintrest,Online Media,Media
+YouTube,YouTube,Online Media,Media
+Bing,Paid Search,Online Media,Media
+Google,Paid Search,Online Media,Media
+Paid Search,Paid Search,Online Media,Media
+Search,Paid Search,Online Media,Media
+OOH,OOH,Offline Media,Media
+Radio,Radio,Offline Media,Media
+Audio Streaming,Audio Streaming,Online Media,Media
+Streaming,Audio Streaming,Online Media,Media
+Podcasts,Audio Streaming,Online Media,Media
+Pandora,Audio Streaming,Online Media,Media
+Spotify,Audio Streaming,Online Media,Media
+Mobility,COVID,COVID,External
+Stringency,COVID,COVID,External
+Cases,COVID,COVID,External
+Deaths,COVID,COVID,External
+CPI,Macroeconomic,Macroeconomic,External
+Unemployment Rate,Macroeconomic,Macroeconomic,External
+Fourier Waves,Seasonality,Seasonality,External
+Trend,Market,Seasonality,External
+Easter,Holiday,Seasonality,External
+MLK Jr. Day,Holiday,Seasonality,External
+Memorial Day,Holiday,Seasonality,External
+Juneteenth,Holiday,Seasonality,External
+Independence Day,Holiday,Seasonality,External
+Labour Day,Holiday,Seasonality,External
+Thanksgiving,Holiday,Seasonality,External
+Christmas,Holiday,Seasonality,External
+New Year's,Holiday,Seasonality,External

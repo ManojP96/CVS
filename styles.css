@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+}
+
+#MainMenu {
+    
+    visibility: collapse;
+}
+
+footer {
+    visibility: collapse;
+}
+
+div.block-container{
+    padding: 2rem 3rem;
+}
+
+div[data-testid="stExpander"]{
+    border: 1px solid '#739FAE';
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+hr.spends-heading-seperator {
+    background-color : #11B6BD;
+    height: 2px;
+}
+
+.spends-header{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+td {
+    max-width: 100px;
+    /* white-space:nowrap; */
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header > img {
+    max-height: 64px;
+    /* max-width: 300px; */
+    object-fit: cover;
+}
+
+table {
+    width: 90%;
+}
