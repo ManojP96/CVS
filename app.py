@@ -75,7 +75,7 @@ selected_df= data[(data['market']==market) & (data['product']==product)]
 
 
 score_X = selected_df[modeling_features]  
-mean_df = score_X.mean() 
+mean_df = score_X.select_dtypes(include=['number']).mean() 
 mean_df = mean_df.to_frame().T 
 mode_df= score_X[['plantype', 'market', 'product_segment']].mode()
 competitor_enroll=selected_df['competitor_enroll'].mean()
