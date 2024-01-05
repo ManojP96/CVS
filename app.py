@@ -170,7 +170,7 @@ if 'Summary_df' not in st.session_state:
 save_columns=st.columns(2)
 with save_columns[0]:
     if st.button("Save Simulation"):
-        st.session_state['Summary_df']=st.session_state['Summary_df'].append(summary_df)
+        st.session_state['Summary_df'] = pd.concat([st.session_state['Summary_df'], summary_df])
         st.session_state['Summary_df'].drop_duplicates(inplace=True)
         st.session_state['Summary_df']=st.session_state['Summary_df'].round(2)
 with save_columns[1]:
