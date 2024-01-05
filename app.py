@@ -28,8 +28,8 @@ authenticator = st.session_state.get('authenticator')
 if authenticator is None:
     authenticator = load_authenticator()
     
-name, authentication_status, username = authenticator.login('Login', 'main')
-auth_status = st.session_state['authentication_status']
+    name, authentication_status, username = authenticator.login('Login', 'main')
+    auth_status = st.session_state['authentication_status']
 
     st.empty()
     data=pd.read_csv('2024_data.csv')
